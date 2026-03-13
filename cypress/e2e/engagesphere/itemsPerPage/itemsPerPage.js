@@ -1,6 +1,6 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
 
-When('I filter by  {string} item per page', (number) => {
+When('I filter by {string} item per page', (number) => {
     cy.get('[aria-label="Pagination limit"]').select(number);
 })
 

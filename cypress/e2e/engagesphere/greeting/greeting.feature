@@ -1,7 +1,7 @@
 Feature: Greeting
 
   Background: 
-    Given I access the Engagesphere app having already accepted the cookies banner  
+    Given I access the Engagesphere app having already accepted the cookies banner
 
   @engagesphere @smoke 
   Scenario: shows default greeting 
